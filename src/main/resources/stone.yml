@@ -1,0 +1,46 @@
+Stone:
+    #初级强化石
+    Junior:
+        #强化石的物品名
+        ItemName: '[初级强化石]'
+        #强化成功概率 没有列出的等级则不能使用这个石头强化
+        Chance: {1: 0.8, 2: 0.8, 3: 0.7, 4: 0.65, 5: 0.6, 6: 0.55}
+    #中级强化石
+    Middle:
+        #强化石的物品名
+        ItemName: '[中级强化石]'
+        #强化成功概率
+        Chance: {7: 0.5, 8: 0.45, 9: 0.30, 10: 0.2}
+    #高级强化石
+    High:
+        #强化石的物品名
+        ItemName: '[高级强化石]'
+        #强化成功概率
+        Chance: {11: 0.15, 12: 0.1, 13: 0.085, 14: 0.075, 15: 0.05}
+    8Scroll:
+        ItemName: '[+8强化卷轴]'
+        TargetLevel: 8
+        Chance: {8: 0.5}
+#幸运石设定
+Lucky:
+    I:
+        #幸运石的物品名
+        ItemName: '[幸运石I]'
+        #幸运石增加的概率
+        Chance: 0.2
+    II:
+        ItemName: '[幸运石II]'
+        Chance: 0.3
+    III:
+        ItemName: '[幸运石III]'
+        Chance: 0.4
+    IV:
+        ItemName: '[幸运石IV]'
+        Chance: 0.5
+    V:
+        ItemName: '[幸运石V]'
+        Chance: 1.0
+Protection:
+    ItemName: '[保护符]'
+
+        

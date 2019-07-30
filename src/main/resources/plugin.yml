@@ -1,0 +1,13 @@
+name: FoxIntensify
+version: ${project.version}
+main: br.bukkit.foxintensify.Main
+depend:
+    - ProtocolLib
+    - BrAPI
+    - RPGAttribute
+commands:
+    FoxIntensify:
+        aliases: [fi,int]
+        description: 主命令
+        usage: |
+            §6/<command> >> 打开强化UI
